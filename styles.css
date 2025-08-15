@@ -1,0 +1,263 @@
+* {
+    scroll-padding-top: 56px;
+}
+
+body {
+    font-family: montserrat;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+.navbar-nav li a {
+    position: relative;
+}
+
+.navbar-nav li a:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.5s;
+}
+
+.navbar-nav li .active:after {
+    width: 100%;
+}
+
+.mont {
+    font-family: Montserrat;
+}
+
+.popp {
+    font-family: poppin;
+}
+
+.ch-25 {
+    height: 25px;
+}
+
+.hover-bgblack-textwhite {
+    background-color: black;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.hover-bgblack-textwhite:hover {
+    background-color: #fff;
+    color: black;
+    border: 1px black solid;
+}
+
+.hover-bgwhite-textblack {
+    background-color: #fff;
+    color: black;
+    border: 1px black solid;
+    transition: all 0.5s;
+}
+
+
+.hover-bgwhite-textblack:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.points:after {
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: -12px;
+    bottom: -30px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+
+.line3::after {
+    content: "";
+    width: 130px;
+    height: 15px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.line4::after {
+    content: "";
+    width: 160px;
+    height: 15px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.line5.active {
+    position: relative;
+}
+
+.line5.active::after {
+    content: "";
+    width: 95%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.line6 {
+    position: relative;
+}
+
+.line6::after {
+    content: "";
+    width: 185px;
+    height: 15px;
+    background-image: url(../images/dots.png);
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card .icon>* {
+    background-color: #f7f7f7;
+    transition: all 0.5s;
+
+}
+
+.card:hover .icon>* {
+    color: white;
+    background-color: black;
+}
+
+.him .layer {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background: rgba(255, 255, 255, 0.95);
+    opacity: 0;
+    transition: all 0.5s;
+    z-index: 2;
+    transform: translateY(10px);
+}
+
+.him:hover .layer {
+    opacity: 1;
+    transform: translateY(0);
+
+}
+
+.nav-tabs li button {
+    border: 0;
+}
+
+.carousel-indicators {
+    bottom: -15%;
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+
+.xgd .layer2 {
+    transform: scale(0.0);
+    width: 95%;
+    height: 95%;
+    transition: all 0.7s;
+}
+
+.xgd img {
+    transition: all 0.7s;
+}
+
+.xgd:hover .layer2 {
+    transform: scale(1.0) rotateY(360deg);
+}
+
+.xgd:hover img {
+    transform: scale(1.2);
+}
+
+.bggrayiconblack {
+    background-color: rgba(128, 128, 128, 0.2);
+    color: black;
+    transition: 0.5s;
+}
+
+.parent:hover .bggrayiconblack {
+    background-color: black;
+    color: white;
+}
+
+.forminputbg {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 0;
+}
+
+.wc-49 {
+    width: 49%;
+}
+
+@media screen and (max-width:768px) {
+    .wc-49 {
+        width: 100%;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav li a {
+        display: inline-block;
+    }
+    .navbar-nav li a:after {
+        content: "";
+        width: 0;
+        height: 2px;
+        background-color: black;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: all 0.5s;
+    }
+
+    .navbar-nav li .active:after {
+        width: 100%;
+    }
+}
+
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: poppin;
+    src: url(../fonts/Poppins-Regular.ttf)
+}

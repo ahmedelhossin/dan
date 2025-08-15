@@ -1,0 +1,134 @@
+.talking::after {
+    content: "";
+    animation: talking 5s infinite;
+}
+
+@keyframes talking {
+    3.125% {
+        content: "D|";
+    }
+
+    6.25% {
+        content: "De|";
+    }
+
+    9.375% {
+        content: "Dev|";
+    }
+
+    12.5% {
+        content: "Deve|";
+    }
+
+    15.625% {
+        content: "Devel|";
+    }
+
+    18.75% {
+        content: "Develo|";
+    }
+
+    21.875% {
+        content: "Develop|";
+    }
+
+    25.0% {
+        content: "Develope|";
+    }
+
+    28.125% {
+        content: "Developer|";
+    }
+
+    31.25% {
+        content: "";
+    }
+
+    34.375% {
+        content: "";
+    }
+
+    37.5% {
+        content: "";
+    }
+
+    40.625% {
+        content: "De|";
+    }
+
+    43.75% {
+        content: "Des|";
+    }
+
+    46.875% {
+        content: "Desi|";
+    }
+
+    50.0% {
+        content: "Desig|";
+    }
+
+    53.125% {
+        content: "Design|";
+    }
+
+    56.25% {
+        content: "Designe|";
+    }
+
+    59.375% {
+        content: "Designer|";
+    }
+
+    62.5% {
+        content: "";
+    }
+
+    65.625% {
+        content: "|";
+    }
+
+    68.75% {
+        content: "|";
+    }
+
+    71.875% {
+        content: "L|";
+    }
+
+    75.0% {
+        content: "Lar|";
+    }
+
+    78.125% {
+        content: "Larry|";
+    }
+
+    81.25% {
+        content: "Larry D|";
+    }
+
+    84.375% {
+        content: "Larry Dan|";
+    }
+
+    87.5% {
+        content: "Larry Danie|";
+    }
+
+    90.625% {
+        content: "Larry Daniels|";
+    }
+
+    93.75% {
+        content: "|";
+    }
+
+    96.875% {
+        content: "|";
+    }
+
+    100.0% {
+        content: "|";
+    }
+}
