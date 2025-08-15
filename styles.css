@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url(../images/bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url(bg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -79,7 +79,7 @@ header {
     position: absolute;
     left: -12px;
     bottom: -30px;
-    background-image: url(../images/dots.png);
+    background-image: url(dots.png);
     background-repeat: repeat;
     z-index: -1;
 }
@@ -88,7 +88,7 @@ header {
     content: "";
     width: 130px;
     height: 15px;
-    background-image: url(../images/dots.png);
+    background-image: url(dots.png);
     background-repeat: repeat;
     position: absolute;
     bottom: -10px;
@@ -100,7 +100,7 @@ header {
     content: "";
     width: 160px;
     height: 15px;
-    background-image: url(../images/dots.png);
+    background-image: url(dots.png);
     background-repeat: repeat;
     position: absolute;
     bottom: -10px;
@@ -131,7 +131,7 @@ header {
     content: "";
     width: 185px;
     height: 15px;
-    background-image: url(../images/dots.png);
+    background-image: url(dots.png);
     position: absolute;
     bottom: -10px;
     left: 50%;
@@ -254,10 +254,11 @@ header {
 
 @font-face {
     font-family: Montserrat;
-    src: url(../fonts/Montserrat-Regular.ttf);
+    src: url(Montserrat-Regular.ttf);
 }
 
 @font-face {
     font-family: poppin;
-    src: url(../fonts/Poppins-Regular.ttf)
+    src: url(Poppins-Regular.ttf)
+
 }
